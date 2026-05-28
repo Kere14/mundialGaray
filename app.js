@@ -965,7 +965,7 @@ const AWARD_PLAYERS = [
   { name: 'Brian Rodríguez', country: 'Uruguay' },
   { name: 'Cristian Olivera', country: 'Uruguay' },
   { name: 'Luciano Rodríguez', country: 'Uruguay' },
-  { name: 'Beatriz Perez', country: 'Uruguay' },
+  { name: 'Facundo Torres', country: 'Uruguay' },
 
   // France
   { name: 'Mike Maignan', country: 'France' },
