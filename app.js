@@ -935,6 +935,7 @@ const AWARD_PLAYERS = [
   { name: 'Dani Olmo', country: 'Spain' },
   { name: 'Álvaro Morata', country: 'Spain' },
   { name: 'Álex Baena', country: 'Spain' },
+  { name: 'Mikel Oyarzabal', country: 'Spain' },
   { name: 'Adrian Zurdito Garcia', country: 'Spain' },
 
   // Uruguay
