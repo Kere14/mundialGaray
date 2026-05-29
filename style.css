@@ -579,6 +579,87 @@ header .subtitle {
   animation: slotBounce 0.25s ease;
 }
 
+.bracket-slot.final-slot.winner {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 0 3px #ffd600,
+    0 0 22px 6px rgba(255, 214, 0, 0.55),
+    0 4px 20px rgba(255, 193, 7, 0.4);
+  z-index: 10;
+}
+
+.bracket-slot.final-slot.winner::after {
+  content: "👑";
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  line-height: 1;
+  z-index: 11;
+  pointer-events: none;
+}
+
+/* Champion banner */
+.champion-banner {
+  margin-top: 28px;
+  text-align: center;
+  animation: championReveal 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.champion-banner-inner {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #ffd600 0%, #ffab00 100%);
+  border-radius: 20px;
+  padding: 24px 48px;
+  box-shadow:
+    0 0 0 3px rgba(255, 214, 0, 0.45),
+    0 8px 32px rgba(255, 193, 7, 0.45),
+    0 4px 16px rgba(0, 0, 0, 0.14);
+}
+
+.champion-trophy {
+  font-size: 52px;
+  line-height: 1;
+}
+
+.champion-flag {
+  width: 72px;
+  height: 50px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.22);
+  flex-shrink: 0;
+}
+
+.champion-name {
+  font-size: 1.75rem;
+  font-weight: 900;
+  color: #1a1a1a;
+  letter-spacing: 0.05em;
+}
+
+.champion-label {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #5d2d00;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+@keyframes championReveal {
+  from {
+    opacity: 0;
+    transform: translateY(24px) scale(0.88);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 /* ---- Awards ---- */
 .award-select {
   width: 100%;

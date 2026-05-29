@@ -2932,7 +2932,7 @@ function renderBracket() {
       1,
       finalTop,
       cols[4],
-      ''
+      'final-slot'
     )
   );
 
@@ -2944,10 +2944,25 @@ function renderBracket() {
       2,
       finalTop + SLOT_H,
       cols[4],
-      ''
+      'final-slot'
     )
   );
   container.appendChild(wrapper);
+
+  // Champion banner
+  if (finalWinner) {
+    const banner = document.createElement('div');
+    banner.id = 'championBanner';
+    banner.className = 'champion-banner';
+    banner.innerHTML =
+      '<div class="champion-banner-inner">' +
+        '<div class="champion-trophy">🏆</div>' +
+        '<span class="champion-flag ' + getFlagClass(finalWinner) + '"></span>' +
+        '<div class="champion-name">' + finalWinner + '</div>' +
+        '<div class="champion-label">¡Tu campeón del Mundial!</div>' +
+      '</div>';
+    container.appendChild(banner);
+  }
 }
 
 
