@@ -27,11 +27,11 @@ const puntuaciones = {
     thirdPlace: 15
   },
   premios: {
-    topScorer: 10,
-    topAssister: 8,
-    goldenGlove: 8,
-    topScoringTeam: 5,
-    mostConcededTeam: 8
+    topScorer: 5,
+    topAssister: 3,
+    goldenGlove: 3,
+    topScoringTeam: 3,
+    mostConcededTeam: 3
   }
 };
 
