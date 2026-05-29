@@ -182,6 +182,7 @@ const AWARD_PLAYERS = [
   { name: 'Ondřej Lingr', country: 'Czech Republic' },
   { name: 'Petr Ševčík', country: 'Czech Republic' },
   { name: 'Lukáš Červ', country: 'Czech Republic' },
+  { name: 'Miguêl Pionêro Barojik', country: 'Czech Republic' },
 
   // Canada
   { name: 'Maxime Crépeau', country: 'Canada' },
