@@ -16,7 +16,7 @@ const puntuaciones = {
       tercero: 5,
       cuarto: 5
     },
-    mejorTercero: 5
+    mejorTercero: 1
   },
   quiniela1x2: 1,
   eliminatorias: {
