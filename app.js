@@ -27,11 +27,11 @@ const puntuaciones = {
     thirdPlace: 15
   },
   premios: {
-    topScorer: 10,
-    topAssister: 8,
-    goldenGlove: 8,
-    topScoringTeam: 5,
-    mostConcededTeam: 8
+    topScorer: 5,
+    topAssister: 3,
+    goldenGlove: 3,
+    topScoringTeam: 3,
+    mostConcededTeam: 3
   }
 };
 
@@ -3556,7 +3556,7 @@ function openScoringHelpModal() {
         <div class="scoring-example-badge got-points">+3</div>
         <div class="scoring-example-text">
           Cada cuadradito verde del leaderboard representa los puntos que te ha dado esa decisión concreta:
-          acertar un resultado exacto, que una selección llegue a 16avos, semis, final, etc.
+          acertar el orden de un grupo, que una selección llegue a 16avos, semis, final, etc.
         </div>
       </div>
 
