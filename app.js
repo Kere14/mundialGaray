@@ -3543,7 +3543,7 @@ function openScoringHelpModal() {
         <div class="scoring-help-card">
           <h4>🌍 Fase de grupos</h4>
           <ul>
-            <li>Acertar cada posición exacta de grupo (1º, 2º, 3º o 4º): <strong>${puntuaciones.grupos.posicion.primero} pts</strong></li>
+            <li>Acertar la posición exacta de cada equipo dentro de su grupo (1º, 2º, 3º o 4º): <strong>${puntuaciones.grupos.posicion.primero} pts por equipo acertado</strong></li>
             <li>Cada mejor tercero (top 8) acertado: <strong>${puntuaciones.grupos.mejorTercero} pts</strong></li>
           </ul>
           <p class="scoring-help-small">Solo se acierta arrastrando los equipos en el orden correcto. No hay marcadores exactos.</p>
@@ -3552,7 +3552,6 @@ function openScoringHelpModal() {
         <div class="scoring-help-card">
           <h4>🥊 Eliminatorias</h4>
           <ul>
-            <li>Equipo en dieciseisavos: <strong>no puntúa</strong></li>
             <li>Equipo en octavos: <strong>${puntuaciones.eliminatorias.round16} pts</strong></li>
             <li>Equipo en cuartos: <strong>${puntuaciones.eliminatorias.quarterfinals} pts</strong></li>
             <li>Equipo en semifinales: <strong>${puntuaciones.eliminatorias.semifinals} pts</strong></li>
