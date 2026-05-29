@@ -2932,7 +2932,7 @@ function renderBracket() {
       1,
       finalTop,
       cols[4],
-      ''
+      'final-slot'
     )
   );
 
@@ -2944,10 +2944,42 @@ function renderBracket() {
       2,
       finalTop + SLOT_H,
       cols[4],
-      ''
+      'final-slot'
     )
   );
   container.appendChild(wrapper);
+
+  // Champion banner
+  if (finalWinner) {
+    const banner = document.createElement('div');
+    banner.id = 'championBanner';
+    banner.className = 'champion-banner';
+
+    const inner = document.createElement('div');
+    inner.className = 'champion-banner-inner';
+
+    const trophy = document.createElement('div');
+    trophy.className = 'champion-trophy';
+    trophy.textContent = '🏆';
+
+    const flag = document.createElement('span');
+    flag.className = 'champion-flag ' + getFlagClass(finalWinner);
+
+    const name = document.createElement('div');
+    name.className = 'champion-name';
+    name.textContent = finalWinner;
+
+    const label = document.createElement('div');
+    label.className = 'champion-label';
+    label.textContent = '¡Tu campeón del Mundial!';
+
+    inner.appendChild(trophy);
+    inner.appendChild(flag);
+    inner.appendChild(name);
+    inner.appendChild(label);
+    banner.appendChild(inner);
+    container.appendChild(banner);
+  }
 }
 
 
