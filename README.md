@@ -1,4 +1,4 @@
-# ⚽ Quiniela LKS Next — Mundial 2026
+# ⚽ Quiniela Garay — Mundial 2026
 
 La quiniela oficial de pasillo, café y Teams paralelo para la peña de LKS Next.
 
