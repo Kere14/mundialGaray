@@ -1039,7 +1039,6 @@ const AWARD_PLAYERS = [
   { name: 'Cristian Olivera', country: 'Uruguay' },
   { name: 'Luciano Rodríguez', country: 'Uruguay' },
   { name: 'Facundo Torres', country: 'Uruguay' },
-  { name: 'Beatriz Jefa Perez', country: 'Uruguay' },
 
   // Francia
   { name: 'Mike Maignan', country: 'Francia' },
@@ -1490,7 +1489,6 @@ const AWARD_PLAYERS = [
   { name: 'Azmahar Ariano', country: 'Panamá' },
 
   // 🐣 Easter Egg — Euskadi (País Vasco)
-  { name: 'Kere', country: 'Euskadi (País Vasco)' },
   { name: 'Imagol Urzelai', country: 'Euskadi (País Vasco)' }
 
 ];
