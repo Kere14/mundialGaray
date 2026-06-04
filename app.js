@@ -1011,7 +1011,6 @@ const AWARD_PLAYERS = [
   { name: 'Álvaro Morata', country: 'España' },
   { name: 'Álex Baena', country: 'España' },
   { name: 'Mikel Oyarzabal', country: 'España' },
-  { name: 'Adrian Zurdito Garcia', country: 'España' },
 
   // Uruguay
   { name: 'Sergio Rochet', country: 'Uruguay' },
@@ -1491,8 +1490,8 @@ const AWARD_PLAYERS = [
   { name: 'Azmahar Ariano', country: 'Panamá' },
 
   // 🐣 Easter Egg — Euskadi (País Vasco)
-  { name: 'AKerejeta', country: 'Euskadi (País Vasco)' },
-  { name: 'Jon Escalador Dorronsoro', country: 'Euskadi (País Vasco)' }
+  { name: 'Kere', country: 'Euskadi (País Vasco)' },
+  { name: 'Imagol Urzelai', country: 'Euskadi (País Vasco)' }
 
 ];
 
@@ -4805,7 +4804,7 @@ async function confirmSubmitPrediction() {
 
     hideLoading();
     fireConfetti();
-    showToast('¡Apuesta registrada! Tarda unos segundos en asomar por el ranking. Mucha suerte, crack de LKS Next.');
+    showToast('¡Apuesta registrada! No des mas la chapa Nuñez');
   } catch(e) {
     hideLoading();
     showToast('Algo ha petado al enviar. Inténtalo otra vez o avisa al de sistemas (a ver si te hace caso).', true);
