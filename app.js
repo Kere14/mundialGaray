@@ -4,9 +4,9 @@
    ============================================================ */
 
 const DATA_SRC = 'https://raw.githubusercontent.com/openfootball/worldcup.json/refs/heads/master/2026';
-const LEADERBOARD_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vR50so94MB_d_s9v97HJFE76w2CK6WVP3UsQNotTJHZOqQHg5FCUiX58anac0nb7bJtambpsOQp7X7P/pub?gid=501263411&single=true&output=csv'
-const FORM_ID = '1sl9v5Q7XJdk-FaWxqWwaBKhfs0kHMR5dTz0HAYeCCjY';
-const ENTRY_ID = 'entry.671695863';
+const LEADERBOARD_CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSDwcurPFZ1PgxTQ_o_D4D4Xjboy1lUrU711uWdLIKXVnWofbf_CwGEeaTL0VaLAX7SOHlRYBCuybu_/pub?gid=1132102352&single=true&output=csv'
+const FORM_ID = '1FAIpQLSd9OPSO4JwC6aDS0dtN9FkpmIiCCijgQztklxLC410HTgvjUg';
+const ENTRY_ID = 'entry.479239932';
 
 const puntuaciones = {
   grupos: {
@@ -3706,13 +3706,17 @@ function parseCSV(csv) {
 }
 
 const LKS_TEAMS = [
-  'GARAY',
-  'ULMA',
+  'Consultoría Tecnológica',
+  'Consultoría de Negocio',
+  'Legal',
+  'Servicios Generales'
 ];
 
 const TEAM_EMOJIS = {
-  'GARAY': '💻',
-  'ULMA': '📊',
+  'Consultoría Tecnológica': '💻',
+  'Consultoría de Negocio': '📊',
+  Legal: '⚖️',
+  'Servicios Generales': '🏢'
 };
 
 function populateTeamSelectOptions() {
