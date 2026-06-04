@@ -3706,17 +3706,13 @@ function parseCSV(csv) {
 }
 
 const LKS_TEAMS = [
-  'Consultoría Tecnológica',
-  'Consultoría de Negocio',
-  'Legal',
-  'Servicios Generales'
+  'GARAY',
+  'ULMA',
 ];
 
 const TEAM_EMOJIS = {
-  'Consultoría Tecnológica': '💻',
-  'Consultoría de Negocio': '📊',
-  Legal: '⚖️',
-  'Servicios Generales': '🏢'
+  'GARAY': '💻',
+  'ULMA': '📊',
 };
 
 function populateTeamSelectOptions() {
