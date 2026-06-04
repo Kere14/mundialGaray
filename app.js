@@ -1491,7 +1491,7 @@ const AWARD_PLAYERS = [
   { name: 'Azmahar Ariano', country: 'Panamá' },
 
   // 🐣 Easter Egg — Euskadi (País Vasco)
-  { name: 'Kere', country: 'Euskadi (País Vasco)' },
+  { name: 'AKerejeta', country: 'Euskadi (País Vasco)' },
   { name: 'Jon Escalador Dorronsoro', country: 'Euskadi (País Vasco)' }
 
 ];
