@@ -24,7 +24,7 @@
 const RESULTS = {
   // Orden final de cada grupo: 1º, 2º, 3º, 4º.
   groups: {
-    A: [],
+    A: ["México","República Checa","Corea del Sur","Sudáfrica"],
     B: [],
     C: [],
     D: [],
