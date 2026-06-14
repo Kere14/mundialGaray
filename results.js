@@ -26,7 +26,7 @@ const RESULTS = {
   groups: {
     A: ["México","Corea del Sur","República Checa","Sudáfrica"],
     B: ["Suiza","Canadá","Catar","Bosnia y Herzegovina"],
-    C: ["Escocia","Marruecos","Brasil","Haiti"],
+    C: ["Escocia","Marruecos","Brasil","Haití"],
     D: ["Estados Unidos","Australia","Turquía","Paraguay"],
     E: [],
     F: [],
