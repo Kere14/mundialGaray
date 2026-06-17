@@ -32,8 +32,8 @@ const RESULTS = {
     F: ["Suecia","Japón","Países Bajos","Túnez"],
     G: ["Nueva Zelanda","Irán","Bélgica","Egipto"],
     H: ["Uruguay","Arabia Saudí","España","Cabo Verde"],
-    I: [],
-    J: [],
+    I: ["Noruega","Francia","Senegal","Irak"],
+    J: ["Argentina","Austria","Jordania","Argelia"],
     K: [],
     L: []
   },
