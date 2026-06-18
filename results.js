@@ -34,8 +34,8 @@ const RESULTS = {
     H: ["Uruguay","Arabia Saudí","España","Cabo Verde"],
     I: ["Noruega","Francia","Senegal","Irak"],
     J: ["Argentina","Austria","Jordania","Argelia"],
-    K: [],
-    L: []
+    K: ["Colombia","RD del Congo","Portugal","Uzbekistán"],
+    L: ["Inglaterra","Ghana","Panamá","Croacia"]
   },
 
   // Los 8 mejores terceros que clasifican a dieciseisavos,
