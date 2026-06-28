@@ -50,7 +50,14 @@ const RESULTS = {
   quiniela1x2: {"Corea del Sur__México":"1","Escocia__Marruecos":"2","España__Uruguay":"2"},
 
   knockout: {
-    round32: [],
+    round32: [ "México", "Suiza", "Brasil", "Estados Unidos",
+      "Alemania", "Países Bajos", "Bélgica", "España",
+      "Francia", "Argentina", "Colombia", "Inglaterra",
+      "Sudáfrica", "Canadá", "Marruecos", "Australia",
+      "Costa de Marfil", "Japón", "Egipto", "Cabo Verde",
+      "Noruega", "Austria", "Portugal", "Croacia",
+      "Bosnia y Herzegovina", "Paraguay", "Ecuador", "Suecia",
+      "Senegal", "Argelia", "RD del Congo", "Ghana"],
     round16: [],
     quarterfinals: [],
     semifinals: [],
