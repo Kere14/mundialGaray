@@ -30,24 +30,24 @@ const RESULTS = {
     D: ["Estados Unidos","Australia","Paraguay","Turquía"],
     E: ["Alemania","Costa de Marfil","Ecuador","Curazao"],
     F: ["Países Bajos","Japón","Suecia","Túnez"],
-    G: ["Egipto","Irán","Bélgica","Nueva Zelanda"],
-    H: ["España","Uruguay","Cabo Verde","Arabia Saudí"],
+    G: ["Bélgica","Egipto","Irán","Nueva Zelanda"],
+    H: ["España","Cabo Verde","Uruguay","Arabia Saudí"],
     I: ["Francia","Noruega","Senegal","Irak"],
     J: ["Argentina","Austria","Argelia","Jordania"],
     K: ["Colombia","Portugal","RD del Congo","Uzbekistán"],
-    L: ["Inglaterra","Ghana","Croacia","Panamá"]
+    L: ["Inglaterra","Croacia","Ghana","Panamá"]
   },
 
   // Los 8 mejores terceros que clasifican a dieciseisavos,
   // en orden (1º mejor tercero → 8º mejor tercero).
-  thirdPlace: [],
+  thirdPlace: ["RD del Congo","Suecia","Ghana","Ecuador","Bosnia y Herzegovina","Argelia","Paraguay","Senegal"],
 
   // Quiniela 1X2 — resultados reales de los 3 partidos fijos.
   // Valores admitidos: "1" (gana team1), "X" (empate), "2" (gana team2).
   // Las claves coinciden con `[team1, team2].sort().join('__')` definido en
   // QUINIELA_1X2_MATCHES dentro de app.js. Dejar "" mientras el partido no
   // se haya jugado.
-  quiniela1x2: {"Corea del Sur__México":"1","Escocia__Marruecos":"2","España__Uruguay":""},
+  quiniela1x2: {"Corea del Sur__México":"1","Escocia__Marruecos":"2","España__Uruguay":"1"},
 
   knockout: {
     round32: [],
