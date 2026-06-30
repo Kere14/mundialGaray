@@ -123,7 +123,11 @@ const RESULTS = {
         // Partido 88: 2ºD vs 2ºG
         {match: 88, team1: "Australia",       team2: "Egipto",              winner: ""}
       ],
-      round16: [],
+      round16: [
+         {match: 89, team1: "Canadá",        team2: "Marruecos",            winner: ""},
+         {match: 90, team1: "Paraguay",        team2: "",                   winner: ""},
+          {match: 91, team1: "Brasil",        team2: "",            winner: ""},
+      ],
       quarterfinals: [],
       semifinals: [],
       thirdPlace: [],
