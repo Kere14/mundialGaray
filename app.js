@@ -20,7 +20,7 @@ const puntuaciones = {
   },
   quiniela1x2: 1,
   eliminatorias: {
-    round32: 0,
+    round32: 2,
     round16: 5,
     quarterfinals: 5,
     semifinals: 10,
