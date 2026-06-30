@@ -24,41 +24,59 @@
 const RESULTS = {
   // Orden final de cada grupo: 1º, 2º, 3º, 4º.
   groups: {
-    A: ["México","Sudáfrica","Corea del Sur","República Checa"],
-    B: ["Suiza","Canadá","Bosnia y Herzegovina","Catar"],
-    C: ["Brasil","Marruecos","Escocia","Haití"],
-    D: ["Estados Unidos","Australia","Paraguay","Turquía"],
-    E: ["Alemania","Costa de Marfil","Ecuador","Curazao"],
-    F: ["Países Bajos","Japón","Suecia","Túnez"],
-    G: ["Bélgica","Egipto","Irán","Nueva Zelanda"],
-    H: ["España","Cabo Verde","Uruguay","Arabia Saudí"],
-    I: ["Francia","Noruega","Senegal","Irak"],
-    J: ["Argentina","Austria","Argelia","Jordania"],
-    K: ["Colombia","Portugal","RD del Congo","Uzbekistán"],
-    L: ["Inglaterra","Croacia","Ghana","Panamá"]
+    A: ["México", "Sudáfrica", "Corea del Sur", "República Checa"],
+    B: ["Suiza", "Canadá", "Bosnia y Herzegovina", "Catar"],
+    C: ["Brasil", "Marruecos", "Escocia", "Haití"],
+    D: ["Estados Unidos", "Australia", "Paraguay", "Turquía"],
+    E: ["Alemania", "Costa de Marfil", "Ecuador", "Curazao"],
+    F: ["Países Bajos", "Japón", "Suecia", "Túnez"],
+    G: ["Bélgica", "Egipto", "Irán", "Nueva Zelanda"],
+    H: ["España", "Cabo Verde", "Uruguay", "Arabia Saudí"],
+    I: ["Francia", "Noruega", "Senegal", "Irak"],
+    J: ["Argentina", "Austria", "Argelia", "Jordania"],
+    K: ["Colombia", "Portugal", "RD del Congo", "Uzbekistán"],
+    L: ["Inglaterra", "Croacia", "Ghana", "Panamá"]
   },
 
   // Los 8 mejores terceros que clasifican a dieciseisavos,
   // en orden (1º mejor tercero → 8º mejor tercero).
-  thirdPlace: ["RD del Congo","Suecia","Ghana","Ecuador","Bosnia y Herzegovina","Argelia","Paraguay","Senegal"],
+  thirdPlace: [
+    "RD del Congo",     // 4 pts, DG +1
+    "Suecia",           // 4 pts, DG  0, 7 GF
+    "Ecuador",          // 4 pts, DG  0, 2 GF
+    "Ghana",            // 4 pts, DG  0, 2 GF
+    "Bosnia y Herzegovina", // 4 pts, DG -1
+    "Argelia",          // 4 pts, DG -2, 5 GF
+    "Paraguay",         // 4 pts, DG -2, 2 GF
+    "Senegal"           // 3 pts
+  ],
 
   // Quiniela 1X2 — resultados reales de los 3 partidos fijos.
   // Valores admitidos: "1" (gana team1), "X" (empate), "2" (gana team2).
   // Las claves coinciden con `[team1, team2].sort().join('__')` definido en
   // QUINIELA_1X2_MATCHES dentro de app.js. Dejar "" mientras el partido no
   // se haya jugado.
-  quiniela1x2: {"Corea del Sur__México":"1","Escocia__Marruecos":"2","España__Uruguay":"2"},
+  quiniela1x2: {
+    "Corea del Sur__México": "1",
+    "Escocia__Marruecos":    "2",
+    "España__Uruguay":       "2"
+  },
 
   knockout: {
-    round32: [ "México", "Suiza", "Brasil", "Estados Unidos",
+    round32: [
+      // 12 primeros clasificados
+      "México", "Suiza", "Brasil", "Estados Unidos",
       "Alemania", "Países Bajos", "Bélgica", "España",
       "Francia", "Argentina", "Colombia", "Inglaterra",
+      // 12 segundos clasificados
       "Sudáfrica", "Canadá", "Marruecos", "Australia",
       "Costa de Marfil", "Japón", "Egipto", "Cabo Verde",
       "Noruega", "Austria", "Portugal", "Croacia",
+      // 8 mejores terceros
       "Bosnia y Herzegovina", "Paraguay", "Ecuador", "Suecia",
-      "Senegal", "Argelia", "RD del Congo", "Ghana"],
-    round16: ["Brasil","Marruecos","Paraguay","Canadá"],
+      "Senegal", "Argelia", "RD del Congo", "Ghana"
+    ],
+    round16: [],
     quarterfinals: [],
     semifinals: [],
 
@@ -71,7 +89,8 @@ const RESULTS = {
     thirdPlace: "",
 
     matches: {
-      round32: [ // Partido 73: 2ºA vs 2ºB
+      round32: [
+        // Partido 73: 2ºA vs 2ºB
         {match: 73, team1: "Sudáfrica",      team2: "Canadá",              winner: "Canadá"},
         // Partido 74: 1ºE vs 3ºD
         {match: 74, team1: "Alemania",        team2: "Paraguay",            winner: "Paraguay"},
@@ -102,8 +121,9 @@ const RESULTS = {
         // Partido 87: 1ºK vs 3ºL
         {match: 87, team1: "Colombia",        team2: "Ghana",               winner: ""},
         // Partido 88: 2ºD vs 2ºG
-        {match: 88, team1: "Australia",       team2: "Egipto",              winner: ""}],
-      round16: [],
+        {match: 88, team1: "Australia",       team2: "Egipto",              winner: ""}
+      ],
+      round16: ["Canadá","Paraguay","Marruecos","Brasil"],
       quarterfinals: [],
       semifinals: [],
       thirdPlace: [],
