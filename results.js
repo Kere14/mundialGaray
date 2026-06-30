@@ -76,7 +76,7 @@ const RESULTS = {
       "Bosnia y Herzegovina", "Paraguay", "Ecuador", "Suecia",
       "Senegal", "Argelia", "RD del Congo", "Ghana"
     ],
-    round16: [],
+    round16: ["Canadá","Paraguay","Marruecos","Brasil"],
     quarterfinals: [],
     semifinals: [],
 
@@ -123,7 +123,7 @@ const RESULTS = {
         // Partido 88: 2ºD vs 2ºG
         {match: 88, team1: "Australia",       team2: "Egipto",              winner: ""}
       ],
-      round16: ["Canadá","Paraguay","Marruecos","Brasil"],
+      round16: [],
       quarterfinals: [],
       semifinals: [],
       thirdPlace: [],
