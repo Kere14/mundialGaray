@@ -76,7 +76,7 @@ const RESULTS = {
       "Bosnia y Herzegovina", "Paraguay", "Ecuador", "Suecia",
       "Senegal", "Argelia", "RD del Congo", "Ghana"
     ],
-    round16: ["Canadá","Paraguay","Marruecos","Brasil"],
+    round16: ["Canadá","Paraguay","Marruecos","Brasil", "México","Francia", "Noruega"],
     quarterfinals: [],
     semifinals: [],
 
@@ -99,11 +99,11 @@ const RESULTS = {
         // Partido 76: 1ºC vs 2ºF
         {match: 76, team1: "Brasil",          team2: "Japón",               winner: "Brasil"},
         // Partido 77: 1ºI vs 3ºF
-        {match: 77, team1: "Francia",         team2: "Suecia",              winner: ""},
+        {match: 77, team1: "Francia",         team2: "Suecia",              winner: "Francia"},
         // Partido 78: 2ºE vs 2ºI
-        {match: 78, team1: "Costa de Marfil", team2: "Noruega",             winner: ""},
+        {match: 78, team1: "Costa de Marfil", team2: "Noruega",             winner: "Noruega"},
         // Partido 79: 1ºA vs 3ºE
-        {match: 79, team1: "México",          team2: "Ecuador",             winner: ""},
+        {match: 79, team1: "México",          team2: "Ecuador",             winner: "México"},
         // Partido 80: 1ºL vs 3ºK
         {match: 80, team1: "Inglaterra",      team2: "RD del Congo",        winner: ""},
         // Partido 81: 1ºD vs 3ºB
@@ -125,8 +125,13 @@ const RESULTS = {
       ],
       round16: [
          {match: 89, team1: "Canadá",        team2: "Marruecos",            winner: ""},
-         {match: 90, team1: "Paraguay",        team2: "",                   winner: ""},
-          {match: 91, team1: "Brasil",        team2: "",            winner: ""},
+         {match: 90, team1: "Paraguay",        team2: "Francia",            winner: ""},
+         {match: 91, team1: "",        team2: "",            winner: ""},
+         {match: 92, team1: "",        team2: "",            winner: ""},
+         {match: 93, team1: "Brasil",        team2: "Noruega",            winner: ""},
+         {match: 94, team1: "México",        team2: "",            winner: ""},
+         {match: 95, team1: "",        team2: "",            winner: ""},
+         {match: 96, team1: "",        team2: "",            winner: ""},
       ],
       quarterfinals: [],
       semifinals: [],
