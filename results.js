@@ -76,7 +76,7 @@ const RESULTS = {
       "Bosnia y Herzegovina", "Paraguay", "Ecuador", "Suecia",
       "Senegal", "Argelia", "RD del Congo", "Ghana"
     ],
-    round16: ["Canadá","Paraguay","Marruecos","Brasil", "México","Francia", "Noruega"],
+    round16: ["Canadá","Paraguay","Marruecos","Brasil", "México","Francia", "Noruega","Inglaterra","Bélgica","Estados Unidos"],
     quarterfinals: [],
     semifinals: [],
 
@@ -105,11 +105,11 @@ const RESULTS = {
         // Partido 79: 1ºA vs 3ºE
         {match: 79, team1: "México",          team2: "Ecuador",             winner: "México"},
         // Partido 80: 1ºL vs 3ºK
-        {match: 80, team1: "Inglaterra",      team2: "RD del Congo",        winner: ""},
+        {match: 80, team1: "Inglaterra",      team2: "RD del Congo",        winner: "Inglaterra"},
         // Partido 81: 1ºD vs 3ºB
-        {match: 81, team1: "Estados Unidos",  team2: "Bosnia y Herzegovina",winner: ""},
+        {match: 81, team1: "Estados Unidos",  team2: "Bosnia y Herzegovina",winner: "Estados Unidos"},
         // Partido 82: 1ºG vs 3ºI
-        {match: 82, team1: "Bélgica",         team2: "Senegal",             winner: ""},
+        {match: 82, team1: "Bélgica",         team2: "Senegal",             winner: "Bélgica"},
         // Partido 83: 2ºK vs 2ºL
         {match: 83, team1: "Portugal",        team2: "Croacia",             winner: ""},
         // Partido 84: 1ºH vs 2ºJ
@@ -126,7 +126,7 @@ const RESULTS = {
       round16: [
          {match: 89, team1: "Canadá",        team2: "Marruecos",            winner: ""},
          {match: 90, team1: "Paraguay",        team2: "Francia",            winner: ""},
-         {match: 91, team1: "",        team2: "",            winner: ""},
+         {match: 91, team1: "Estados Unidos",        team2: "Bélgica",      winner: ""},
          {match: 92, team1: "",        team2: "",            winner: ""},
          {match: 93, team1: "Brasil",        team2: "Noruega",            winner: ""},
          {match: 94, team1: "México",        team2: "",            winner: ""},
