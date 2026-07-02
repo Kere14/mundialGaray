@@ -129,7 +129,7 @@ const RESULTS = {
          {match: 91, team1: "Estados Unidos",        team2: "Bélgica",      winner: ""},
          {match: 92, team1: "",        team2: "",            winner: ""},
          {match: 93, team1: "Brasil",        team2: "Noruega",            winner: ""},
-         {match: 94, team1: "México",        team2: "",            winner: ""},
+         {match: 94, team1: "México",        team2: "Inglaterra",            winner: ""},
          {match: 95, team1: "",        team2: "",            winner: ""},
          {match: 96, team1: "",        team2: "",            winner: ""},
       ],
