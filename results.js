@@ -76,7 +76,11 @@ const RESULTS = {
       "Bosnia y Herzegovina", "Paraguay", "Ecuador", "Suecia",
       "Senegal", "Argelia", "RD del Congo", "Ghana"
     ],
-    round16: ["Canadá","Paraguay","Marruecos","Brasil", "México","Francia", "Noruega","Inglaterra","Bélgica","Estados Unidos"],
+    round16: ["Canadá","Paraguay","Marruecos",
+              "Brasil", "México","Francia",
+              "Noruega","Inglaterra",
+              "Bélgica","Estados Unidos","España",
+              "Portugal","Suiza"],
     quarterfinals: [],
     semifinals: [],
 
@@ -111,11 +115,11 @@ const RESULTS = {
         // Partido 82: 1ºG vs 3ºI
         {match: 82, team1: "Bélgica",         team2: "Senegal",             winner: "Bélgica"},
         // Partido 83: 2ºK vs 2ºL
-        {match: 83, team1: "Portugal",        team2: "Croacia",             winner: ""},
+        {match: 83, team1: "Portugal",        team2: "Croacia",             winner: "Portugal"},
         // Partido 84: 1ºH vs 2ºJ
-        {match: 84, team1: "España",          team2: "Austria",             winner: ""},
+        {match: 84, team1: "España",          team2: "Austria",             winner: "España"},
         // Partido 85: 1ºB vs 3ºJ
-        {match: 85, team1: "Suiza",           team2: "Argelia",             winner: ""},
+        {match: 85, team1: "Suiza",           team2: "Argelia",             winner: "Suiza"},
         // Partido 86: 1ºJ vs 2ºH
         {match: 86, team1: "Argentina",       team2: "Cabo Verde",          winner: ""},
         // Partido 87: 1ºK vs 3ºL
@@ -127,10 +131,10 @@ const RESULTS = {
          {match: 89, team1: "Canadá",        team2: "Marruecos",            winner: ""},
          {match: 90, team1: "Paraguay",        team2: "Francia",            winner: ""},
          {match: 91, team1: "Estados Unidos",        team2: "Bélgica",      winner: ""},
-         {match: 92, team1: "",        team2: "",            winner: ""},
+         {match: 92, team1: "Portugal",        team2: "España",            winner: ""},
          {match: 93, team1: "Brasil",        team2: "Noruega",            winner: ""},
          {match: 94, team1: "México",        team2: "Inglaterra",            winner: ""},
-         {match: 95, team1: "",        team2: "",            winner: ""},
+         {match: 95, team1: "Suiza",        team2: "",            winner: ""},
          {match: 96, team1: "",        team2: "",            winner: ""},
       ],
       quarterfinals: [],
