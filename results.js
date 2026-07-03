@@ -10,7 +10,7 @@
    como "pendiente" y no resta puntos a nadie.
 
    Si quieres volver a partir de cero, copia el contenido de
-   results-empty.js sobre este archivo.
+   results-empty.js sobre este archivo
    ------------------------------------------------------------
    Cambios importantes:
    - YA NO se predicen resultados exactos de partidos: solo el
