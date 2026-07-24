@@ -152,10 +152,10 @@ const RESULTS = {
         {match: 102, team1: "Inglaterra", team2: "Argentina",  winner: "Inglaterra"}
       ],
       thirdPlace: [
-        {match: 103, team1: "Francia", team2: "Argentina",  winner: "Argentina"}
+        {match: 103, team1: "Francia", team2: "Inglaterra",  winner: "Inglaterra"}
       ],
       final: [
-        {match: 104, team1: "España",  team2: "Inglaterra",   winner: "España"}
+        {match: 104, team1: "España",  team2: "Argentina",   winner: "España"}
       ]
     }
   },
@@ -164,8 +164,8 @@ const RESULTS = {
   finalists: ["España", "Argentina"],
 
   champion: "España",
-  runnerUp: "Inglaterra",
-  thirdPlaceWinner: "Argentina",
+  runnerUp: "Argentina",
+  thirdPlaceWinner: "Inglaterra",
 
   // 5 categorías divertidas — todas son una sola elección por categoría.
   // "topScorer", "topAssister" y "goldenGlove" esperan el NOMBRE de un jugador
